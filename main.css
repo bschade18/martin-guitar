@@ -138,3 +138,10 @@ footer {
   margin-top: 20px;
 }
 
+@media only screen and (max-width: 800px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+
